@@ -1,6 +1,6 @@
 # SportsClub_Website
 I developed this website using HTML, CSS, JavaScript, Node.js and MongoDB.
-Feature's
+Feature's,
 Users must register to become a member of the sports club website.
 Without registering, user's won't get the apply option.
 Once registered, users can log in to the website, and only registered users can access the site's features.
