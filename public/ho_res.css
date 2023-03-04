@@ -1,0 +1,223 @@
+@media only screen and (max-width : 1022px) {
+
+
+    /* header */
+
+    header {
+        padding: 10px 10px 5px 10px;
+        flex-direction: column;
+        height: 75px;
+    }
+
+
+    a {
+        padding: 0px 10px;
+        font-size: 13px;
+    }
+
+    .mhead{
+        align-items: normal;
+    }
+
+    .dbtn {
+        margin: 0px 7px;
+        font-size: 13px;
+    }
+
+    .dcon {
+        min-width: 60px;
+    }
+
+    .dcon a {
+        margin: 10px 10px;
+        padding: 0px 0px;
+    }
+
+    .lhead {
+        font-size: 13px;
+    }
+
+    .lhead img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .openBtn {
+        font-size: 13px;
+        padding: 0px 15px;
+    }
+
+    .f {
+        margin: 40px 80px;
+    }
+
+    .c {
+        font-size: 6px;
+    }
+
+    .si input,
+    .si button {
+
+        font-size: 8.5px;
+    }
+
+    .fo {
+        font-size: 30px;
+    }
+
+    .fi {
+        font-size: 15px;
+    }
+
+    /* resp burger class */
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 33px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+
+    /* new */
+
+    .fh {
+        flex-direction: column;
+        padding: 30px 0px 30px 0px;
+        height: 250px;
+    }
+
+    .fhi {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    .fhii {
+        font-size: 12px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .bt {
+        padding: 4px 4px;
+        margin-top: 5px;
+        margin-left: 108px;
+        font-size: 7px;
+    }
+
+    .box {
+        margin-top: 15px;
+    }
+
+
+
+    .c_fl {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cbc{
+        font-size: 7px;
+    }
+
+    #services2 {
+        padding: 24px 30px;
+
+    }
+
+    .f_sec {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .fo_cl {
+        height: 100px;
+        width: 100px;
+    }
+
+    .fo_cl_nf {
+        margin-right: 40px;
+    }
+
+    .f_sec {
+        display: flex;
+        justify-content: space-between;
+        padding: 3px 3px;
+        margin-left: 10px;
+
+    }
+    .d_sec{
+        display: flex;
+        justify-content: space-between;
+        padding: 3px 3px;
+        margin-left: 10px;
+        flex-direction: column;
+    }
+    .fo_cl_nc{
+        margin-right: 0px;
+        margin-left: 70px;
+    }
+
+    .p_ne {
+        padding-top: 10px;
+    }
+
+    .f_in {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    .f_in_n {
+        margin-right: 10px;
+    }
+
+    .fit {
+        height: 350px;
+        padding: 2px;
+        justify-content: space-between;
+
+    }
+    .fit_n{
+        width: 250px;
+    }
+
+    .d_b {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .footer {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+    }
+
+    .f_la {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .o_fo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+}

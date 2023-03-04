@@ -1,0 +1,218 @@
+@media only screen and (max-width : 1022px) {
+
+    /* midcon class content */
+
+    .midcon {
+        padding: 0px 0px;
+        margin: 20px 20px;
+    }
+
+    /* service class content */
+
+    #services {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px 0px 0px 0px;
+    }
+    .sp14 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .spon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spon img {
+        height: 140px;
+    }
+
+    /* thla class content */
+
+    .thla {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .thr,
+    .thl {
+        display: flex;
+        color: white;
+        padding: 0px 0px;
+        margin: 65px 0px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .left {
+        margin: 10px 0px;
+        height: 80vh;
+    }
+
+    .right {
+        height: 80vh;
+        margin: 10px 0px;
+    }
+
+    /* footer */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    footer div {
+        margin: 0px 15px;
+    }
+    
+    footer a {
+        margin: 0px 4px;
+        padding: 0px 0px;
+    }
+
+    /* header */
+
+    header {
+        padding: 10px 10px 5px 10px;
+        flex-direction: column;
+        height: 75px;
+    }
+
+    a {
+        padding: 0px 10px;
+        font-size: 13px;
+    }
+
+    .mhead{
+        align-items: normal;
+    }
+
+    .dbtn {
+        margin: 0px 7px;
+        font-size: 13px;
+    }
+
+    .dcon {
+        min-width: 60px;
+    }
+
+    .dcon a {
+        margin: 10px 10px;
+        padding: 0px 0px;
+    }
+
+    .lhead {
+        font-size: 13px;
+    }
+
+    .lhead img {
+        height: 20px;
+        width: 20px;
+    }
+    
+    .openBtn {
+        font-size: 13px;
+        padding: 0px 15px;
+    }
+    
+
+    .f {
+        margin: 40px 80px;
+    }
+
+    .c {
+        font-size: 6px;
+    }
+
+    .si input,
+    .si button {
+        font-size: 8.5px;
+    }
+
+    .fo {
+        font-size: 30px;
+    }
+
+    .fi {
+        font-size: 15px;
+    }
+
+    /* respon burger class */
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 33px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+ 
+    /* section */
+
+    .section {
+        flex-direction: column-reverse;
+    }
+    .paras {
+        padding: 0px 0px;
+        
+    }
+
+    /* slideshow */
+    .slideshow-container {
+        height: 400px;
+    }
+
+    .search{
+        margin: 0px 0px;
+    }
+    
+    .ws{
+        width: 40vb;
+        font-size: 8px;
+        margin: 10px 0px;
+    }
+
+    .cont{
+        height: 40vh;
+    }
+    .sq{
+        font-size: 16px;
+    }
+    
+    #us{
+        font-size: 14px;margin: 10px;
+    }
+
+    .comm{
+    
+        width: 90%;
+        height: 20px;
+        padding: 0px 0px;
+        margin: 20px auto;
+    
+    }
+    .cln{
+        display: inline-block; 
+        font-size: 20px;
+        margin-right: 20px; 
+    }
+
+    .btnn{
+        font-size: 5px;
+        padding: 2px 2px;
+        border-radius: 5px;
+        background-color: #0d1838;
+        color: white;
+        margin-right: 3px;
+    }
+
+}

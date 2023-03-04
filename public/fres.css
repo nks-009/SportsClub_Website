@@ -1,0 +1,113 @@
+@media only screen and (max-width : 1022px) {
+
+    /* footer */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    footer div {
+        margin: 0px 15px;
+    }
+    
+    footer a {
+        margin: 0px 4px;
+        padding: 0px 0px;
+    }
+
+    /* header */
+
+    header {
+        padding: 10px 10px 5px 10px;
+        flex-direction: column;
+        height: 75px;
+    }
+
+
+    a {
+        padding: 0px 10px;
+        font-size: 13px;
+    }
+
+    .mhead{
+        align-items: normal;
+    }
+
+    .dbtn {
+        margin: 0px 7px;
+        font-size: 13px;
+    }
+
+    .dcon {
+        min-width: 60px;
+    }
+
+    .dcon a {
+        margin: 10px 10px;
+        padding: 0px 0px;
+    }
+
+    .lhead {
+        font-size: 13px;
+    }
+
+    .lhead img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .openBtn {
+        font-size: 13px;
+        padding: 0px 15px;
+    }
+
+    .f {
+        margin: 40px 80px;
+    }
+
+    .c {
+        font-size: 6px;
+    }
+
+    .si input,
+    .si button {
+
+        font-size: 8.5px;
+    }
+
+    .fo {
+        font-size: 30px;
+    }
+
+    .fi {
+        font-size: 15px;
+    }
+
+    /* resp burger class */
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 33px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    /* middle section */
+
+    .bow img {
+        height: 50px;
+    }
+
+    .msc {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        margin: 5px 5px;
+    }
+}

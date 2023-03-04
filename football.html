@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SportsClub</title>
+    <link rel="stylesheet" type='text/css' href="football.css">
+    <link rel="stylesheet" type='text/css' href="fres.css">
+</head>
+
+<body>
+    <header class="navbar h-nav-resp">
+
+        <div class="lhead">
+            <img src="/img/logo.png" alt="">
+            <a href="/" >SportsClub</a>
+        </div>
+        <ul class="mhead v-class-resp">
+
+            <li><a href="/">Home</a></li>
+            <li><a href="/About">About</a></li>
+            <li>
+                <div class="drop">
+                    <button class="dbtn">Offerings
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dcon">
+                        <a href="/cricket">Cricket</a>
+                        <a href="/football">Football</a>
+                    </div>
+                </div>
+
+
+            </li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/login">Login</a></li>
+
+        </ul>
+        <div class="rhead v-class-resp">
+            <button class="openBtn" onclick="openSearch()">Register</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+
+    </header>
+
+
+    <div id="myOverlay" class="overlay">
+        <div class="f">
+
+            <div class="overlay-content">
+                <div><span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                </div>
+                <div class="fo">
+                    <h4>Register Here</h4>
+                </div>
+                <div class="fi">
+                    <p>Are you interested to be part of my club? We would love to meet!</p>
+                </div>
+                <div>
+                    <form action="/" method="post" class="si">
+                        <div><input type="text" placeholder="Name" name="name"></div>
+                        <div><input type="email" placeholder="Email" name="email"></div>
+                        <div><input type="text" placeholder="Password" name="password"></div>
+                        <div><button type="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="t">
+                <div class="c"><span>CALL</span>
+                    <div>+91-000-000-0000</div>
+                </div>
+                <div class="c"><span>OR</span></div>
+                <div class="c"><span>MAIL</span>
+                    <div>abc@gmail.com</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section class="msc">
+        <div class="sfc">
+            <div>
+                <h2
+                    style="font-size: 35px;  padding: 5px 0px 5px 0px;margin: auto;width: 80%;display:flex;width: 80%;justify-content: center;align-items: center;">
+                    Football Academy</h2>
+            </div>
+            <div>
+                <img class="imgc" src="img/fmp.jpg" alt="">
+            </div>
+            <div style="width: 80%;padding: 20px 0px;margin: auto;">
+                <h1 style="font-size: 30px;">1. Mainland Football Academy</h1>
+                <p style="font-size: 20px;"><br><br>Regarded as one of the best football academies in Kolkata, the
+                    Sambaran Football Academy was
+                    established by former Bengal footballer, Sambaran Banerjee. With more than 20 coaches for different
+                    age groups, they organize the largest Under-14 football tournaments in the state.
+                    <br><br>
+                    Centre: Jatin Bagchi Road, Southern Park, lake Terrace, Lake Gardens, Kolkata, West Bengal 700029
+                    <br><br>
+                    Age Group: 6 years and above
+                    <br><br>
+                    Fees Structure: Admission fee RS 500/-, monthly RS 150/-
+                    <br><br>
+                    Facilities: Gloves, 2 Shoes, 3 Dress, 5 Nets, Physical
+                    Training, Technical assistance
+                    <br><br>
+                    Days and Timings: Monday to Saturday (7 am to 5 pm)
+                    <br><br>
+                    Contact: Mr. Sambaran Banerjee (+91 3324639662, +91 6296110860)
+                </p>
+                <br><br>
+                <hr><br><br>
+                <h1 style="font-size: 30px;">2. Calcutta Football Academy</h1>
+                <p style="font-size: 20px;"><br><br><br>
+                    Calcutta Football Academy is the best place to ace your skills. They provide individual coaching
+                    sessions to make sure that the kids are able to learn football from scratch or polish their football
+                    abilities.
+                    <br><br>
+                    The sessions are mostly an hour and a half long, conducted by the former students of the academy.
+                    The academy was established by Abdul Masood, who is an ECB and BCCI Level certified coach. They also
+                    organize overseas tours to countries like Australia, England, and South Africa
+                    <br><br>
+                    Centre: Vivekananda Park (West) Ground Opposite: Kamala Girl’s High School, Kolkata, West Bengal
+                    700029
+                    <br><br>
+                    Age Group: N/A
+                    <br><br>
+                    Fees Structure: On Request
+                    <br><br>
+                    Facilities: N/A
+                    <br><br>
+                    Days and Timings: Saturday to Sunday (Morning and Afternoon); Thursday (Afternoon)
+                    <br><br>
+                    Contact: Mr. Abdul Masood (+91 9831041010)
+                    
+                </p>
+            </div>
+        </div>
+        <div class="ssc">
+            <div>
+                <h1
+                    style="font-size: 35px;padding: 5px 0px 5px 0px;display:flex;width: 80%;justify-content: center;align-items: center;">
+                    Latest Article</h1>
+            </div>
+            <div class="bat" style="padding: 20px 0px;margin: auto;">
+                <img class="bacc" src="img/def.jpg" alt="">
+                <h2 style="padding: 20px 0px;width: 80%;"> <a
+                        style="display:flex;width: 80%;justify-content: center;align-items: center;" href="/Top_3_Defender">Top 3
+                        Defender</a> </h2>
+            </div>
+            <div class="bow" style="padding: 20px 0px;margin: auto;">
+                <img class="bocc" src="img/goalk.jpg" alt="">
+                <h2 style="padding: 20px 0px;width: 80%;"> <a
+                        style="display:flex;width: 80%;justify-content: center;align-items: center;" href="/Top_3_Goalkeeper">Top 3
+                        Goalkeeper</a> </h2>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="fo1">Copyright © 2022 SportClub.com</div>
+        <div class="fo2"><a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-github"></a>
+        </div>
+    </footer>
+
+</body>
+<script src="football.js"></script>
+
+</html>
