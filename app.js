@@ -135,6 +135,11 @@ app.get('/login', function (req, res) {
   res.sendFile(path.join(__dirname, '/login.html'));
 });
 
+app.get('/afll', function (req, res) {
+  res.sendFile(path.join(__dirname, '/afll.html'));
+});
+
+
 
 
 
@@ -195,6 +200,14 @@ app.get('/aflTop_3_Defender', function (req, res) {
 
 app.get('/aflAbout', function (req, res) {
   res.sendFile(path.join(__dirname, '/aflsp.html'));
+});
+
+app.get('/pmsf', function (req, res) {
+  res.sendFile(path.join(__dirname, '/pmsf.html'));
+});
+
+app.get('/pm', function (req, res) {
+  res.sendFile(path.join(__dirname, '/pm.html'));
 });
 
 

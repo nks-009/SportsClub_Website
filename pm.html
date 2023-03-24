@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type='text/css' href="style.css">
   <link rel="stylesheet" type='text/css' href="res.css">
+  <link rel="stylesheet" type='text/css' href="pm.css">
   <link rel="icon" href="/img/sc.jpg" type="image/icon type">
 </head>
 
@@ -16,7 +17,7 @@
 
     <div class="lhead">
       <img src="/img/logo.png" alt="">
-      <a href="/aflog" >SportsClub</a>
+      <a href="/aflog">SportsClub</a>
     </div>
     <ul class="mhead v-class-resp">
 
@@ -89,18 +90,86 @@
     </div>
   </div>
 
-  <div class="container" style="height: 495px;">
-    <h1 style="padding: 15px;width: 40%;margin: auto;padding: 80px 0px 30px 0px;">Alerts</h1>
-    <div style="padding: 15px;
-    width: 40%;
-    margin: auto;
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-radius: 4px;
-    border-color: #d6e9c6;">
-      <strong style="color: green;">Success!</strong> Your information has been saved.
+
+
+
+  <div class="fcont">
+
+    <div class="inf">
+      <div class="ci">
+        <div class="r1t">
+          Card Information
+        </div>
+        <div class="r2t">
+          Indicate details of the card from which money will be debited
+        </div>
+        <div class="cpic">
+          <img id="ph" src="/img/viss.png" alt="">
+          <div>Card number</div>
+          <input class="unc" type="number"
+            name="" id="" placeholder="0000 0000 0000 0000">
+          <div class="ln"></div>
+          <div class="cvv">
+            <div class="my">
+              <div>Month and year</div>
+              <div class="myf">
+                <div>
+                  <input class="un"
+                    type="number" name="" id="" placeholder="00">
+                  <div class="ln"></div>
+                </div>
+                <div>/</div>
+                <div>
+                  <input class="un"
+                    type="number" name="" id="" placeholder="00">
+                  <div class="ln"></div>
+                </div>
+              </div>
+            </div>
+            <div class="cv">
+              <div>CVV code</div>
+              <input class="unn" type="number"
+                name="" id="" placeholder="***">
+              <div class="ln2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pi">
+        <div class="r1t">
+          UPI Payment
+        </div>
+        <div class="r2t">
+          Total Amount 1000
+        </div>
+        <div class="r2t">
+          How would you like to pay?
+        </div>
+        <div class="ao">
+          <div class="c3">
+            <input type="radio" name="sn" id="">
+            <div>Paytm</div>
+            <img src="/img/pt.png" alt="">
+          </div>
+          <div class="c3">
+            <input type="radio" name="sn" id="">
+            <div>Amazon Pay</div>
+            <img src="/img/ap.jpg" alt="">
+          </div>
+          <div class="c3">
+            <input type="radio" name="sn" id="">
+            <div>Google Pay</div>
+            <img src="/img/gp.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pym">
+      <button id="pb"> <a href="/pmsf"> Pay | 1000 </a></button>
     </div>
   </div>
+
   <footer>
     <div class="fo1">Copyright © 2022 SportsClub.com</div>
     <div class="fo2"><a href="#" class="fa fa-facebook"></a>
@@ -111,6 +180,6 @@
   </footer>
 
 </body>
-<script src="sp.js"></script>
+<script src="pm.js"></script>
 
 </html>

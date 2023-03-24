@@ -1,0 +1,21 @@
+#pb{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:  #0d1838;
+    border-radius: 25px;
+    border-color: white;
+    margin: 40px auto;
+}
+#pb:hover{
+    background-color: rgba(255, 9, 9, 0.863);
+}
+
+.fl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -105,12 +105,16 @@ a {
     cursor: pointer;
     border: none;
     color: white;
+    border-radius: 5px;
 }
 
 .openBtn:hover {
-    font-size: 22px;
-    color: rgba(255, 9, 9, 0.863);
+    background-color:rgba(255, 9, 9, 0.863) ;
 }
+
+
+
+
 
 /* overlay class content */
 
